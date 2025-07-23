@@ -40,17 +40,14 @@ I built this expense tracker following Remix best practices:
    npm run dev
 
 ### 📝 Using the Application
--View Expenses: The home page shows all your recorded expenses
+View Expenses: The home page shows all your recorded expenses
 
--Add New: Click "Add Expense" to create a new entry
+Add New: Click "Add Expense" to create a new entry
 
--Edit: Click any expense to modify its details
+Edit: Click any expense to modify its details
 
--Delete: Use the delete button (with confirmation prompt) to remove expenses
+Delete: Use the delete button (with confirmation prompt) to remove expenses
 
--All changes are automatically saved to the JSON database file.
-
-### 🤝 Contributing
--Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you'd like to change. 
+All changes are automatically saved to the JSON database file.
 
 
