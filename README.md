@@ -1,40 +1,26 @@
-# Welcome to Remix!
+# 💸 Task Expense Tracker (Remix App)
 
-- 📖 [Remix docs](https://remix.run/docs)
+A simple, clean expense tracking app built using [Remix](https://remix.run/) and Tailwind CSS. It allows users to add, view, edit, and delete daily expenses, with all data stored in a JSON file.
 
-## Development
+---
 
-Run the dev server:
+## 🧑‍💻 My Approach
 
-```sh
-npm run dev
-```
+I followed the assignment structure closely and built this project using:
 
-## Deployment
+- **Remix file-based routing** for all core routes: `/`, `/add`, `/edit/:id`, and `/delete/:id`
+- **Loaders and actions** to handle data fetch and mutation the Remix way
+- A **JSON file** as a lightweight, mock database to simulate storage
+- **Tailwind CSS** for a fully responsive, modern UI
+- **Client-side + server-side validation** for safe form handling
+- Polished the UI for better user experience with confirmation prompts and styled buttons
 
-First, build your app for production:
+---
 
-```sh
-npm run build
-```
+## 🚀 Setup Instructions
 
-Then run the app in production mode:
+### 1. Clone the Repo
 
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+```bash
+git clone https://github.com/adarshXpal/Task_Expense_Tracker.git
+cd Task_Expense_Tracker
