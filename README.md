@@ -35,3 +35,22 @@ I built this expense tracker following Remix best practices:
 1. Clone the repository:
    ```bash
    git clone https://github.com/adarshXpal/Task_Expense_Tracker.git
+   cd Task_Expense_Tracker
+   npm install
+   npm run dev
+
+### 📝 Using the Application
+-View Expenses: The home page shows all your recorded expenses
+
+-Add New: Click "Add Expense" to create a new entry
+
+-Edit: Click any expense to modify its details
+
+-Delete: Use the delete button (with confirmation prompt) to remove expenses
+
+-All changes are automatically saved to the JSON database file.
+
+### 🤝 Contributing
+-Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you'd like to change. 
+
+
